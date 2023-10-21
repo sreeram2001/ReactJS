@@ -1,2 +1,2 @@
 # ReactJS
-ReactJS Notes
+ReactJS
