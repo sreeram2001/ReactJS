@@ -6,6 +6,7 @@
 
 => Example of a Component : 
 
+'''
 //function names should start with capital letter
 
 function App() {
@@ -22,5 +23,6 @@ function App() {
 
 //export default is mentioned so that this component can be used outside in other files.
 export default App;
+'''
 
 => similarily import is used in as file header to import a component from other file.
