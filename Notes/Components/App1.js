@@ -1,4 +1,4 @@
-//MULTIPLE COMPONENTS
+//MULTIPLE COMPONENTS IN REACT
 
 //import components from other files
 import Navbar from './Navbar'
