@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 
 //function names should start with capital letter
 
