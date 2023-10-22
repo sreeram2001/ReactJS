@@ -36,3 +36,9 @@ useState hook
 
 <img width="195" alt="Screenshot 2023-10-22 at 10 18 54 PM" src="https://github.com/sreeram2001/ReactJS/assets/40134790/d4e94e9c-ea2e-49f0-9f03-7e33584beb24">
 
+
+=> The useState Hook provides those two things:
+
+A state variable to retain the data between renders.
+
+A state setter function to update the variable and trigger React to render the component again.
