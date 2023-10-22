@@ -38,6 +38,7 @@ const Home = () =>
 => Example of calling a function with parameters : 
 
 =>     //function which takes parameters
+
     const handle = (name) =>
     {
         console.log(name);
