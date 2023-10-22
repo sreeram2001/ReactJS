@@ -25,4 +25,4 @@ function App() {
 export default App;
 '''
 
-=> similarily import is used in as file header to import a component from other file.
+=> similarily import is used to import components from other file.
