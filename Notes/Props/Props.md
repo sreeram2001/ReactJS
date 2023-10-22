@@ -70,6 +70,7 @@ const BlogList = (props) => {
 => Another Way to Use Props : 
 
 we can directly use blogs, title instead of using props.blogs and props. title
+
 const BlogList = ({blogs, title}) => {
 
     // const blogs = props.blogs   //we use the props passed from parent component
