@@ -9,10 +9,15 @@ useState hook
 => Using useState to update a value
 
 =>  //destructure an array
+
     //first we pass an initial value called superman to output in template
+
     //then we call the set function the second value in array called setName to update it
+
     //this will trigger a re-render for the variable name.
+
     const [name, setName] = useState('superman')
+
     const [age, updateAge] = useState(24)
 
 =>   using set functions to update it
