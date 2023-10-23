@@ -7,6 +7,7 @@ useEffect which runs without dependencies will re-render everytime the state has
     });
 
 useEffect takes in dependencies in the form of array, this will re-render everytime the state of the items mentioned in the array changes.
+
 This time the re-render is specific to only change in state of the following items mentioned in the Example : 
 
     const [number, setNum] = useState(1);
@@ -16,4 +17,5 @@ This time the re-render is specific to only change in state of the following ite
     }, [number]);
 
 //setNum being called to update number
+
 <button onClick={ () => setNum(number+1) }>Click</button>
