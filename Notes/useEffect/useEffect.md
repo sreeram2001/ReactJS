@@ -16,6 +16,6 @@ This time the re-render is specific to only change in state of the following ite
         console.log("UseEffect called", number)
     }, [number]);
 
-//setNum being called to update number
+//setNum being called to update the number
 
 <button onClick={ () => setNum(number+1) }>Click</button>
