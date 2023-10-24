@@ -43,4 +43,5 @@ For example if we wish to display "Loading..." for sometime before data loads
 }, [])
 
 //conditional loading, we check if Pending is true only then we display Loading else we don't 
+
             {Pending && <div>Loading.......</div>}
