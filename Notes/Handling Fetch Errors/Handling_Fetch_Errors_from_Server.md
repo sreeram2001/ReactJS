@@ -8,6 +8,7 @@
 
 =>     throw Error if Endpoint is invalid : 
 
+
   setTimeout( () => {fetch('http://localhost:8000/blogss')
         .then( (res) => {
 
@@ -23,7 +24,8 @@
 
 =>    setError() is used to update the error message , we will use error variable to display the error
 
- .catch( err => {
+
+    .catch( err => {
         console.log(err.message)
         setError(err.message);
         setPending(false)           //once error is displayed, the conditional Loading can be stopped
