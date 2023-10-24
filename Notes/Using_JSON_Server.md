@@ -7,3 +7,24 @@
 => To use the data base type the command : npx json-server --watch "file-path" --port "port_number"
 
 => E.g : npx json-server --watch data/database.json --port 8000
+
+=> JSON FIle contents Example : 
+
+=> {
+    "blogs": [
+      {
+        "title": "My First Blog",
+        "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the etc.",
+        "author": "arjun",
+        "id": 1
+      } ] }
+
+=> Endpoints provided by JSON server will be :
+
+/blogs - get - to get all blogs
+
+/blogs/{id} - get request - to get specific blog based on index
+
+/blogs - post - to add a new blog
+
+/blogs/{id} - delete - to delete a specific blog
