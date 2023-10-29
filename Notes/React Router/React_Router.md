@@ -9,8 +9,7 @@ Setup React Route :
 
 3. Now surround your div contents with Router Component/BrowserRouter component : 
 
-function App() {
-  return (
+'''
     <Router>
     <div className="App">
       <Navbar />    
@@ -19,8 +18,7 @@ function App() {
       </div>
     </div>
     </Router>
-  );
-}
+'''
 
 4. Next Decide where our page contents to go when we go to different pages, Example if we wish to go inside div class content "Home" Component :
 
