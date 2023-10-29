@@ -19,7 +19,7 @@ export default NotFound;`
 
 => Here we create a Link redirect to home page as mentioned with the Home page route.
 
-=> Using the component : Route search starts from top-bottom under switch, anything that does not match will match with '*' route and load its corresponding path.
+=> Using the component : Route search starts from top-bottom under switch, anything that does not match will match with '*' route and load its corresponding path. Here it loads the NotFound Component created by us.
 
 `      <Route path="*">
       < NotFound /> 
