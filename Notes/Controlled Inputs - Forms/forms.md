@@ -1,4 +1,4 @@
-=> Lets gather form data and do a post request our JSON Server.
+=> Lets gather form data and do a post request to our JSON Server.
 
 => Lets get the input data from user : 
 
