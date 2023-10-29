@@ -21,37 +21,37 @@ Setup React Route :
 
 4. Next Decide where our page contents to go when we go to different pages, Example if we wish to go inside div class content "Home" Component :
 
-      <div className="content">
+`      <div className="content">
       <Home></Home>      
-      </div>
+      </div>`
 
 Use a <Switch></Switch> component, this make sure that only one route shows at one time, all our routes would get inside this switch component.
 
-      <div className="content">
+`      <div className="content">
       <Switch>
       <Home></Home>   
       </Switch>   
-      </div>
+      </div>`
 
 5. Next create a route for each page, 
 
-      <div className="content">
+`      <div className="content">
       <Switch>
         <Route path='/'> 
       </Route> 
       </Switch>   
-      </div>
+      </div>`
 
 We Route to the path mentioned in the tag, Here '/' path Means our Home Page
 
 6. When the User visits this '/' Route, we display the Home component to them : 
 
-  <div className="content">
+`  <div className="content">
   <Switch>
       <Route path='/'>
       <Home></Home>  
       </Route>   
   </Switch>   
-  </div>
+  </div>`
 
 Everytime the User visits the path '/' react app displays the Home page contents
