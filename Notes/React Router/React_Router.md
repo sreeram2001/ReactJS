@@ -60,15 +60,12 @@ We Route to the path mentioned in the tag, Here '/' path Means our Home Page
 
 6. When the User visits this '/' Route, we display the Home component to them.
 
-
-      <div className="content">
+=> 
       <Switch>
         <Route path='/'>
       <Home /> 
       </Route> 
       </Switch>   
-      </div>
-
-___________________
 
 
+Everytime the User visits the path '/' react app displays the Home page contents
