@@ -14,7 +14,6 @@ Setup React Route :
 3. Now surround your div contents with Router Component/BrowserRouter component : 
 
 Example :
-
 function App() {
   //react converts all data types no.s, arrays to string before outputing
   //but it can't convert objects and booleans
