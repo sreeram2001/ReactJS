@@ -59,6 +59,8 @@ Use a <Switch></Switch> component, this make sure that only one route shows at o
 We Route to the path mentioned in the tag, Here '/' path Means our Home Page
 
 6. When the User visits this '/' Route, we display the Home component to them.
+
+
       <div className="content">
       <Switch>
         <Route path='/'>
@@ -66,5 +68,7 @@ We Route to the path mentioned in the tag, Here '/' path Means our Home Page
       </Route> 
       </Switch>   
       </div>
+
+___________________
 
 
